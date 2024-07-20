@@ -1,0 +1,33 @@
+import random
+
+while True:
+    main_qss = input("Choose either rock, paper or scissors?  ")
+    main_qs = main_qss.lower()
+    my_choice = ["rock", "paper", "scissors"]
+    comp_choice = random.choice(my_choice)
+    print(f"You chose {main_qs}, computer chose {comp_choice}.")
+
+    if main_qs == comp_choice:
+        print("Both players selected {main_qs}.its a tie!")
+        
+    elif main_qs == "rock":
+        if comp_choice == "scissors":
+            print("rock smashes scissors! You win")
+        else:
+            print("paper covers rock!, you lose.")
+
+    elif main_qs == "paper":
+        if comp_choice == "rock":
+            print("paper covers rock! You win")
+        else:
+            print("scissors cuts paper! you lose.")
+
+    elif main_qs == "scissors":
+        if comp_choice == "paper":
+            print("scissors cuts paper!, you win")
+        else:
+            print("rock smashes scissors! you lose.")
+
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break
