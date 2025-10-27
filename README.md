@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kimeu007
 - 👀 I’m interested in python and so I take this journey of self awareness and pushing my limits
-- 🌱 I’m currently learning how to python documentation
+- 🌱 Beginner Python Developer
 - 💞️ I’m looking to collaborate on my projects with more experience programmers.
 - 📫 How to reach me +254 717 444 836
 - 😄 Pronouns: He/Him
